@@ -18,12 +18,29 @@ willingness to ship. 💪
 This is the public syllabus and certification plan for the **Vibe Coding
 Academy**. It’s designed to be:
 
-- **Self-contained** — you can read it start to finish in one sitting.
+- **Self-contained** — you can read it start to finish in about one hour.
 - **Beginner-friendly** — we explain the big picture before the deep weeds.
 - **Production-focused** — every module ends with something you can actually
   ship, not a toy notebook.
+- **Offline-ready** — clone it, save it to your hard drive, and refer back to
+  it whenever you need a refresher. No paywalls, no logins.
 
-Think of it as the trailer + table of contents for the Academy experience.
+Think of it as the trailer + table of contents + quick-reference handbook for
+the Academy experience.
+
+## 🗂️ What’s inside
+
+| Path | What it is |
+|---|---|
+| `README.md` | This file — the overview, tracks, and certification plan. |
+| `how-to-use-this-repo.md` | A suggested reading path. |
+| `modules/` | Five in-depth guides (~10 minutes each). Read these for the core ideas. |
+| `cheatsheets/` | One-page references you can keep open while building. |
+| `checklists/` | Step-by-step lists to run before shipping. |
+| `glossary.md` | Definitions for terms used across the repo. |
+
+Total reading time: roughly **one hour**. You can finish it in a single focused
+session or dip in and out as you build.
 
 ## 🎯 Who is this for?
 
@@ -41,11 +58,17 @@ If that sounds like you, keep reading! 📖
 
 ## 🗺️ How to use this starter pack
 
-1. **Read the [syllabus](#syllabus)** to get the lay of the land.
-2. **Pick a [track](#tracks)** that fits your life and goals.
-3. **Work through the [certification levels](#certification-plan)** one step at
-   a time.
-4. **When you’re ready for a cohort**, reach out at
+1. Read the overview below to understand the Academy structure.
+2. Read the modules in order:
+   - [`modules/01-foundations-of-ai-native-engineering.md`](modules/01-foundations-of-ai-native-engineering.md)
+   - [`modules/02-building-rag-and-agentic-systems.md`](modules/02-building-rag-and-agentic-systems.md)
+   - [`modules/03-model-operations-and-observability.md`](modules/03-model-operations-and-observability.md)
+   - [`modules/04-security-and-compliance-for-ai-systems.md`](modules/04-security-and-compliance-for-ai-systems.md)
+   - [`modules/05-shipping-a-production-capstone.md`](modules/05-shipping-a-production-capstone.md)
+3. Keep the [`cheatsheets/`](cheatsheets/) and [`checklists/`](checklists/) open
+   while you work.
+4. Check [`glossary.md`](glossary.md) whenever a term slips your mind.
+5. **When you’re ready for a cohort**, reach out at
    [Vibe Coding Agency](https://vibecodingagency.com/products/vibe-coding-academy/).
 
 Go at your own pace. Ask questions. Break things. That’s how you learn. 🔧
@@ -170,6 +193,17 @@ three levels:
 
 Level 3 is the standard the Academy uses to recommend engineers for high-trust,
 AI-native engineering roles. You’ve got this. 💪
+
+## 💾 Save it locally
+
+This repo is intentionally text-only. You can:
+
+```bash
+git clone https://github.com/Vibe-Coding-Agency/vibe-coder-beginning-starter-pack.git
+```
+
+Then open it in any text editor or Markdown reader. No internet connection
+required. Search it, annotate it, keep it forever.
 
 ## 🤝 Need help or want to join a cohort?
 
