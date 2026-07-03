@@ -68,6 +68,8 @@ If that sounds like you, keep reading! 📖
    - [`modules/05-shipping-a-production-capstone.md`](modules/05-shipping-a-production-capstone.md)
 3. Keep the [`cheatsheets/`](cheatsheets/) and [`checklists/`](checklists/) open
    while you work.
+   - Building an agent? Check [`cheatsheets/agents-cheat-sheet.md`](cheatsheets/agents-cheat-sheet.md).
+   - Designing a multi-agent system? Check [`cheatsheets/agent-swarms-cheat-sheet.md`](cheatsheets/agent-swarms-cheat-sheet.md).
 4. Check [`glossary.md`](glossary.md) whenever a term slips your mind.
 5. **When you’re ready for a cohort**, reach out at
    [Vibe Coding Agency](https://vibecodingagency.com/products/vibe-coding-academy/).
