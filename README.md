@@ -71,6 +71,7 @@ If that sounds like you, keep reading! 📖
    - Building an agent? Check [`cheatsheets/agents-cheat-sheet.md`](cheatsheets/agents-cheat-sheet.md).
    - Designing a multi-agent system? Check [`cheatsheets/agent-swarms-cheat-sheet.md`](cheatsheets/agent-swarms-cheat-sheet.md).
    - Writing evaluations? Check [`cheatsheets/evaluation-harness-cheat-sheet.md`](cheatsheets/evaluation-harness-cheat-sheet.md).
+   - Building the orchestration around a model? Check [`cheatsheets/scaffolding-cheat-sheet.md`](cheatsheets/scaffolding-cheat-sheet.md).
 4. Check [`glossary.md`](glossary.md) whenever a term slips your mind.
 5. **When you’re ready for a cohort**, reach out at
    [Vibe Coding Agency](https://vibecodingagency.com/products/vibe-coding-academy/).
