@@ -37,6 +37,7 @@ the Academy experience.
 | `modules/` | Five in-depth guides (~10 minutes each). Read these for the core ideas. |
 | `cheatsheets/` | One-page references you can keep open while building. |
 | `checklists/` | Step-by-step lists to run before shipping. |
+| `reference/` | Decision trees and a failure-mode cookbook for quick decisions. |
 | `glossary.md` | Definitions for terms used across the repo. |
 
 Total reading time: roughly **one hour**. You can finish it in a single focused

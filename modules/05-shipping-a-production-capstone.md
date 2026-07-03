@@ -106,6 +106,21 @@ to report:
 Use real numbers when you can. Estimates are fine early on, but replace them
 with measured data as soon as possible.
 
+
+## 💡 Worked example: handing off an API
+
+You built a text-summarization API. You are leaving for vacation. Your teammate
+needs to run it while you are away.
+
+They should be able to find:
+- What the API does and the curl command to test it.
+- Where it is deployed and how to view logs.
+- How to roll back if a bad model version is deployed.
+- Who to contact if the provider is down.
+
+If any of those answers live only in your head, the system is not production
+ready. Write the one-page handoff doc before you leave.
+
 ## ✅ Module 5 checklist
 
 - [ ] My system is deployed to a staging and production environment.

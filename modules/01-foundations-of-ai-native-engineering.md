@@ -111,6 +111,22 @@ not deterministic. Here are the classics:
 The goal is not to eliminate every failure. The goal is to detect failures,
 handle them gracefully, and measure them.
 
+
+## 💡 Worked example: support ticket classifier
+
+Imagine you want an AI to classify incoming support tickets as “billing,”
+“technical,” or “account.”
+
+**Task:** Given the subject and body, output the correct category.
+**Evaluation:** 50 real tickets with known labels. Metric = accuracy.
+**Failure modes:**
+- A ticket mentions both billing and technical issues. Which label wins?
+- A user writes in slang or another language.
+- The model confidently labels a completely empty ticket.
+
+Your design doc should decide these cases before you train or prompt the model.
+That one hour of thinking saves days of debugging later.
+
 ## ✅ Module 1 checklist
 
 - [ ] I can explain the difference between a model, an agent, and a pipeline.

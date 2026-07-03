@@ -13,7 +13,8 @@ drive, and revisited whenever you need a refresher.
    - `modules/04-security-and-compliance-for-ai-systems.md`
    - `modules/05-shipping-a-production-capstone.md`
 3. Keep the `cheatsheets/` and `checklists/` nearby while you build.
-4. Use `glossary.md` when you forget a term.
+4. Check `reference/decision-trees.md` when you are stuck on an architectural choice.
+5. Use `glossary.md` when you forget a term.
 
 ## How long will it take?
 

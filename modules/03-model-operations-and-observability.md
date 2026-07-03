@@ -95,6 +95,22 @@ outputs. Run it automatically:
 
 If the score drops, stop the rollout and investigate.
 
+
+## 💡 Worked example: the Friday latency spike
+
+You deploy a new prompt on Friday. On Monday, users complain the feature is
+slow.
+
+With good observability, you open the dashboard and see:
+- p95 latency jumped from 800 ms to 4 seconds.
+- Token usage per request tripled.
+- The new prompt includes a long system message that was not measured during
+  testing.
+
+With a trace, you find the exact request and the prompt version. You roll back
+to the previous version, add the prompt to your regression suite, and re-deploy
+a shorter version on Tuesday. Without observability, you are guessing.
+
 ## ✅ Module 3 checklist
 
 - [ ] I have a dashboard with latency, cost, token usage, and error rate.

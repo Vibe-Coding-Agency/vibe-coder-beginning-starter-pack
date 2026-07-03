@@ -126,6 +126,22 @@ with one agent and split only when the logic gets too complex.
 - **Unclear tool descriptions** — the agent picks the wrong tool.
 - **No evals for retrieval** — you cannot improve what you do not measure.
 
+
+## 💡 Worked example: internal docs bot
+
+Your company has 200 pages of internal documentation. You want a bot that
+answers “How do I set up the staging database?”
+
+**Chunking:** Split each page by heading. Keep paragraphs intact.
+**Retrieval:** Embed the chunks and the question. Fetch the top 5.
+**Re-ranking:** Score the 5 chunks for relevance to the exact question.
+**Generation:** Prompt: “Answer using only the context below. Cite the source
+page. If the context does not contain the answer, say so.”
+
+Without the “cite the source” instruction, the bot will hallucinate page names.
+Without re-ranking, it may include irrelevant pages. These small details make
+RAG usable.
+
 ## ✅ Module 2 checklist
 
 - [ ] I chose a chunking strategy and can explain why.
